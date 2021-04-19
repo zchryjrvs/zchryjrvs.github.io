@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+    font-family: Open Sans;
+}
+
+h1 {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+h2 {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+p {
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.title {
+    display: inline-block;
+    font-style: italic;
+}
+
+header {
+    margin: auto;
+    width: 90%;
+    background-color: gold;
+    border: 3px solid gold;
+}
+
+header nav {
+    float: right;
+}
+
+header li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    border: 3px solid black;
+    min-height: 400px;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    background-color: gold;
+    border: 3px solid gold;
+}
