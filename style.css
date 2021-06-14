@@ -3,6 +3,11 @@ html {
     font-family: Open Sans;
 }
 
+body {
+    width: 70%;
+    margin: auto;
+}
+
 h1 {
     padding: 0 1rem;
     font-size: 2rem;
@@ -14,20 +19,23 @@ h2 {
     font-style: italic;
 }
 
+h6 {
+    padding: 0 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
 p {
     padding: 0 1rem;
     font-size: 1rem;
 }
 
-.title {
+.logo {
     display: inline-block;
 }
 
 header {
-    margin: auto;
-    width: 75%;
     background-color: cornflowerblue;
-    border: 3px solid cornflowerblue;
 }
 
 header nav {
@@ -37,7 +45,7 @@ header nav {
 
 header li {
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
 }
 
 a {
@@ -57,19 +65,15 @@ a:hover {
 }
 
 main {
-    width: 75%;
-    margin: auto;
     border: 3px solid black;
     min-height: 400px;
 }
 
 footer {
-    width: 75%;
-    margin: auto;
     background-color: cornflowerblue;
-    border: 3px solid cornflowerblue;
 }
 
 footer p {
     float: right;
+    padding: 0.5rem 1rem;
 }
